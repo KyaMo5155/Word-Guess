@@ -1,2 +1,2 @@
-# Word-Guess
+# Code Quiz
 A mini vocabulary game.
