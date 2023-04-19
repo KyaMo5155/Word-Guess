@@ -13,6 +13,7 @@ start_btn.onclick = ()=>{
 }
 
 
+
 let timeValue =  15;
 let que_count = 0;
 let que_numb = 1;
@@ -99,6 +100,9 @@ function startQuiz(){
     score = 0;// sets start score to 0
     nextButton.innerHTML = "Next";
     showQuestion();
+    time_line = ("header .time_line");
+    timeText = (".timer .time_left_txt");
+    timeCount = (".timer .timer_sec");
 }
 //displays question with question number
 function showQuestion(){
